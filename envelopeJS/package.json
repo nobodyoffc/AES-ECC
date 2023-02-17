@@ -1,0 +1,18 @@
+{
+  "name": "aes-ecc",
+  "version": "1.0.0",
+  "description": "aes-ecc digital envelope encryption algorithms library",
+  "main": "DEnvelop.js",
+  "scripts": {
+    "test": "Node DEnvelop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bn.js": "^5.2.0",
+    "crypto-js": "latest",
+    "eciesjs": "^0.3.12",
+    "elliptic": "^6.5.4",
+    "secp256k1": "^4.0.2"
+  }
+}
